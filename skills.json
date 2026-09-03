@@ -38,6 +38,18 @@
       "local": false
     },
     {
+      "name": "supabase",
+      "source": "https://github.com/supabase/agent-skills/tree/main/skills/supabase",
+      "objective": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, declarative schemas, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector); debugging and troubleshooting errors or unexpected behavior on Supabase projects (HTTP errors, Postgres errors, RLS surprises, permission denied, schema cache issues, timeouts, Edge Function crashes, Realtime drops, Storage failures) and reading or querying logs (Logs Explorer, ClickHouse).",
+      "local": false
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "source": "https://github.com/supabase/agent-skills/tree/main/skills/supabase-postgres-best-practices",
+      "objective": "Postgres best practices maintained by Supabase, for Postgres running anywhere. Load this skill BEFORE writing or changing anything that lives in a Postgres database: creating or altering tables and columns (including choosing column types), schema design, migrations and declarative schema files, RLS policies and the tests that verify them, indexes, triggers, database functions, queues and scheduled jobs (pg_cron, pgmq), vector/semantic search (pgvector), and restoring dumps (pg_restore) or importing data. Also load it when diagnosing slow queries, high CPU, timeouts, EXPLAIN plans, connection exhaustion, locking, bloat, or rows visible to the wrong user or tenant. This is not just a performance guide — schema, migration, security, and SQL authoring tasks need these rules too, even for a one-column change or a single query.",
+      "local": false
+    },
+    {
       "name": "typescript-best-practices",
       "source": "https://github.com/cursor/plugins/tree/main/pstack/skills/typescript-best-practices",
       "objective": "TypeScript best practices. Use when reading or editing any .ts or .tsx file.",
