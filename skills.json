@@ -2,9 +2,21 @@
   "skillsDir": ".agents/skills",
   "skills": [
     {
+      "name": "docx",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/docx",
+      "objective": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+      "local": false
+    },
+    {
       "name": "frontend-design",
       "source": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
       "objective": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "local": false
+    },
+    {
+      "name": "handoff",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/productivity/handoff",
+      "objective": "Compact the current conversation into a handoff document for another agent to pick up.",
       "local": false
     },
     {
@@ -17,6 +29,24 @@
       "name": "pptx",
       "source": "https://github.com/anthropics/skills/tree/main/skills/pptx",
       "objective": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
+      "local": false
+    },
+    {
+      "name": "setup-pre-commit",
+      "source": "https://github.com/mattpocock/skills/tree/main/skills/misc/setup-pre-commit",
+      "objective": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.",
+      "local": false
+    },
+    {
+      "name": "typescript-best-practices",
+      "source": "https://github.com/cursor/plugins/tree/main/pstack/skills/typescript-best-practices",
+      "objective": "TypeScript best practices. Use when reading or editing any .ts or .tsx file.",
+      "local": false
+    },
+    {
+      "name": "unslop",
+      "source": "https://github.com/cursor/plugins/tree/main/pstack/skills/unslop",
+      "objective": "Cut AI tells from any writing. Must always apply.",
       "local": false
     },
     {
