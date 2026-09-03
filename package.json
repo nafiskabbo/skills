@@ -1,0 +1,12 @@
+{
+  "name": "skills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "skills": "bun run scripts/skills.ts",
+    "skills:add": "bun run scripts/skills.ts add",
+    "skills:sync": "bun run scripts/skills.ts sync",
+    "skills:list": "bun run scripts/skills.ts list",
+    "skills:readme": "bun run scripts/skills.ts readme"
+  }
+}
