@@ -20,6 +20,18 @@
       "local": false
     },
     {
+      "name": "nestjs-expert",
+      "source": null,
+      "objective": "You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems.",
+      "local": true
+    },
+    {
+      "name": "next-js-expert",
+      "source": null,
+      "objective": "Build and maintain production full-stack applications with Next.js App Router, React, Tailwind CSS, Route Handlers, Server Actions, authentication, databases, caching, and deployment-safe configuration. Use when changing routes, UI, server-side data access, APIs, mutations, middleware, environment variables, or project architecture.",
+      "local": true
+    },
+    {
       "name": "pdf",
       "source": "https://github.com/anthropics/skills/tree/main/skills/pdf",
       "objective": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
@@ -56,10 +68,22 @@
       "local": false
     },
     {
+      "name": "typescript-migration",
+      "source": null,
+      "objective": "Migrate a repo across TypeScript major versions (5.x→6.0 and 6.x→7.0). Use when upgrading typescript, fixing TS6 deprecations, tsconfig default changes, baseUrl/rootDir/types breakage, ignoreDeprecations, or adopting the Go-native TypeScript 7 compiler. Not for day-to-day TypeScript style — use typescript-best-practices for that.",
+      "local": true
+    },
+    {
       "name": "unslop",
       "source": "https://github.com/cursor/plugins/tree/main/pstack/skills/unslop",
       "objective": "Cut AI tells from any writing. Must always apply.",
       "local": false
+    },
+    {
+      "name": "vps-komodo",
+      "source": null,
+      "objective": "Operate a VPS and Komodo Docker stacks for multi-app hosting. SSH, stack env, Postgres, GoTrue, nginx, Compose rebuilds, health checks. Use when the user mentions VPS, Komodo, stack env, migrate, certbot, or production env on the host.",
+      "local": true
     },
     {
       "name": "xlsx",
