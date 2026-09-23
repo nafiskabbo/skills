@@ -62,6 +62,12 @@
       "local": false
     },
     {
+      "name": "taste-skill",
+      "source": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/taste-skill",
+      "objective": "Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.",
+      "local": false
+    },
+    {
       "name": "typescript-best-practices",
       "source": "https://github.com/cursor/plugins/tree/main/pstack/skills/typescript-best-practices",
       "objective": "TypeScript best practices. Use when reading or editing any .ts or .tsx file.",
